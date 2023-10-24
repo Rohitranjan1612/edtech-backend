@@ -2,9 +2,9 @@ const isDevelopment: boolean =
   !process.env.NODE_ENV || process.env.NODE_ENV === "development";
 
 const devApiConfig = {
-  baseUrl: "http://localhost:5000/api/v1",
-  url: "http://localhost:5000",
-  docsUrl: "http://localhost:5000/api/v1/docs",
+  baseUrl: "http://localhost:5001/api/v1",
+  url: "http://localhost:5001",
+  docsUrl: "http://localhost:5001/api/v1/docs",
 };
 
 const prodApiConfig = {

@@ -5,7 +5,7 @@ export const config = {
     // http server ip, port, and peer timeout constant
     //
     httpIp: '0.0.0.0',
-    httpPort: isProduction ? 443 : 5000,
+    httpPort: isProduction ? 443 : 5001,
     httpPeerStale: 15000,
 
     // ssl certs. we'll start as http instead of https if we don't have

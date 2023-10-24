@@ -55,13 +55,13 @@ $ npm start
 * Create meeting
 ```bash
 # The response will give you a entrypoint / url for your meeting.
-$ curl -X POST "http://localhost:5000/api/v1/meeting" -H  "authorization: nettu_meet_default_secret" -H  "Content-Type: application/json" -d "{  \"title\": \"First Nettu Meet meeting\"}"
+$ curl -X POST "http://localhost:5001/api/v1/meeting" -H  "authorization: nettu_meet_default_secret" -H  "Content-Type: application/json" -d "{  \"title\": \"First Nettu Meet meeting\"}"
 ```
 
 
 ## Documentation
 
-The server exposes a swagger document at http://localhost:5000/api/v1/docs/. Or you can check it out live [here](https://api.meet.nettubooking.com/api/v1/docs)
+The server exposes a swagger document at http://localhost:5001/api/v1/docs/. Or you can check it out live [here](https://api.meet.nettubooking.com/api/v1/docs)
 
 
 
